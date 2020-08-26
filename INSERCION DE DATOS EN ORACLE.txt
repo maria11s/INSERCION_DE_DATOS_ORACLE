@@ -1,0 +1,26 @@
+insert into CLIENTE values(1,'Jimmy','Giler Ruiz','1234567890','0978111211','22');
+insert into CLIENTE values(2,'Edgar','Chavez Zambrano','1304444111','0944466612','22');
+insert into CLIENTE values(3,'Josue','Cobos Rodriguez','1345633351','0985773311','21');
+insert into CLIENTE values(4,'Jennifer','Pico Holguin','1388800112','0982783902','21');
+insert into CLIENTE values(5,'Jordan','Pincha Riazcos','1377700112','0982989902','22');
+insert into CLIENTE values(6,'Jonathan','Mero Conforme','1377717116','0982989902','22');
+
+select * from CLIENTE;
+
+insert into HABITACION values (1,'367','30','economica');
+insert into HABITACION values(2,'368','50','precio elevado');
+insert into HABITACION values(3,'369','25','economico');
+insert into HABITACION values(4,'370','16','economico');
+insert into HABITACION values(5,'323','20','economico');
+insert into HABITACION values(6,'324','25','economico');
+
+select * from HABITACION ;
+ 
+insert into UBICACION values(1,1,'Manta');
+insert into UBICACION values(2,2,'Portoviejo');
+insert into UBICACION values(3,3,'Portoviejo');
+insert into UBICACION values(4,4,'Guayaquil');
+insert into UBICACION values(5,5,'Guayaquil');
+insert into UBICACION values(6,6,'Manta');
+
+select * from UBICACION
